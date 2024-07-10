@@ -25,6 +25,7 @@ jobs:
         with:
           build: npm run build
           start: npm start
+          browser: chrome
           # Starts web server for E2E tests - replace with your own server invocation
           # https://docs.cypress.io/guides/continuous-integration/introduction#Boot-your-server
           #start: npm start
