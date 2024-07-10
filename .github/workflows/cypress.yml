@@ -1,5 +1,11 @@
-name: Cypress Tests
-on: [push]
+name: OrangeHRM-Pruebas
+#on: [push]
+on:
+  push:
+    branches:
+      - main
+      - feature/*
+      - hotfix/*
 jobs:
   cypress-run:
     runs-on: ubuntu-latest
