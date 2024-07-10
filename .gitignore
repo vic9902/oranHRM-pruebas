@@ -1,0 +1,2 @@
+#Ignora el node_modules en los git add
+node_modules
