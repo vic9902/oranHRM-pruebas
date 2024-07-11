@@ -53,6 +53,6 @@ describe("Prueba página login", ()=>{
     cy.get('.oxd-button').click();
 
     cy.location('pathname').should('eq','/web/index.php/dashboard/index');
-    cy.get('a.oxd-main-menu-item.active > span').should('be.visible').contains('Dashboards prueba');
+    cy.get('a.oxd-main-menu-item.active > span').should('be.visible').contains('Dashboard');
   });
 });
