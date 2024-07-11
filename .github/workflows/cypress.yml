@@ -42,7 +42,7 @@ jobs:
         # Uses the official Cypress GitHub action https://github.com/cypress-io/github-action
         uses: cypress-io/github-action@v6
         with:
-          run: npm run cypress-dashboard-run
+          #run: npm run cypress-dashboard-run
           #build: npm run build
           #start: npm start
           #browser: chrome
