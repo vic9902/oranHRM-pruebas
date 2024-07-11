@@ -10,6 +10,9 @@ on:
   pull_request:
     branches:
       - '**'
+  push:
+    branches:
+      - main
 jobs:
   cypress-run:
     runs-on: ubuntu-latest
