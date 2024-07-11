@@ -4,5 +4,9 @@
     "cypress": "^13.12.0",
     "ts-node": "^10.9.2",
     "typescript": "^5.5.2"
+  },
+  "scripts": {
+    "chrome-execution": "npx cypress run cypress/e2e/**/*.ts --browser chrome --headed",
+    "cypress-dashboard-run": "npx cypress run --record --key 9130ee6b-adb9-49ed-a4e8-96b03b77310d"
   }
 }
